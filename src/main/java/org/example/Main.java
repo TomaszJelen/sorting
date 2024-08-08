@@ -16,13 +16,13 @@ public class Main {
                     minIndex = j;
                 }
             }
-            int tmp = numbers[i];
+            int tmpNumber = numbers[i];
             numbers[i] = numbers[minIndex];
-            numbers[minIndex] = tmp;
+            numbers[minIndex] = tmpNumber;
         }
         System.out.println("After sorting:");
-        for (int i : numbers) {
-            System.out.print(i + " ");
+        for (int number : numbers) {
+            System.out.print(number + " ");
         }
     }
 }
